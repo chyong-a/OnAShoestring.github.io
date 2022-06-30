@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+/* BACKGROUND */
+html {
+  font-family: 'Roboto', sans-serif;
+  background-color: #CFA42F;
+}
+
+/* BACKGROUND IMAGE */
+html {
+  background-image: url('../logo/europe.png'), url('../logo/europe.png');
+  background-repeat: repeat-y, repeat-y;
+  background-size: 9%, 9%;
+  background-position: 1%, right;
+}
+
+/* TEXT FORMATTING */
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+html p {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+body {
+  width: 90%;
+  min-width: 600px;
+  max-width: 1200px;
+  margin: auto;
+  height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+header,
+main,
+footer {
+  background-color: #dbb44ae6;
+  overflow: hidden;
+}
+
+header {
+  background-color: #ffdc73ce;
+  border-radius: 10px 10px 0 0;
+  height: 20%;
+}
+
+footer {
+  background-color: #ffdc73ce;
+  border-radius: 0 0 10px 10px;
+  height: 20%;
+}
+
+main {
+  width: 100%;
+  height: 60%;
+}
+
+
+/*** MENU ***/
+nav#mainmenu {
+  margin: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 1%;
+  margin-bottom: 1.5%;
+}
+
+nav#mainmenu ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  padding-top: 2%;
+}
+
+nav#mainmenu li {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  font-variant: small-caps;
+  font-size: 1.2rem;
+  margin: 5%;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:visited {
+  color: #0080FF;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header nav li a.active {
+  font-weight: bolder;
+  color: black;
+}
+
+/* HEADER */
+header {
+  position: relative;
+  background-image: url('../logo/onAShoestringLogoTransperent.png');
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 1%, left;
+  width: 100%;
+}
+
+nav#forvisualimpairment {
+  width: 10%;
+  position: absolute;
+  top: 20%;
+  right: -3%;
+  border-top-right-radius: 10px;
+}
+
+a#normaltext {
+  display: none;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+footer div {
+  width: 33.333%;
+}
+
+footer img {
+  position: relative;
+  left: 13%;
+  width: 100%;
+}
+
+/* SIDEBAR */
+.maincontent {
+  width: 67%;
+  height: 90%;
+  float: left;
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+  height: 90%;
+  padding: 0 0 0 0;
+  text-align: center;
+  border-radius: 10px;
+  margin: 1%;
+  margin-top: 2%;
+}
+
+.sidebar img {
+  width: 100%;
+  text-align: center;
+}
+
+section#newesttopics h2 {
+  font-weight: bolder;
+}
+
+section#newesttopics {
+  border: 1px solid black;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+
+section#newesttopics ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+section#newesttopics li {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding: 5% 1% 5% 1%;
+}
+
+section#newesttopics a {
+  text-decoration: none;
+  color: black;
+}
+
+/* SLIDESHOW FOR SIDEBAR */
+#reasontogo {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 3%;
+  padding-top: 1%;
+  margin-top: 5%;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+  padding: 10%;
+  text-align: center;
+}
+
+.mySlides p {
+  text-align: center;
+  margin-top: -10%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -7%;
+  padding: 3%;
+  color: #888;
+  font-weight: bold;
+  font-size: larger;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.dot-container {
+  text-align: center;
+  padding: 5%;
+  background: #ddd;
+  border-bottom-left-radius: 4%;
+  border-bottom-right-radius: 4%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 1rem;
+  width: 1rem;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+
+.dot.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* THE FIRST PICTURE AND TEXT REPEATING ON EACH PAGE */
+.firstpicandtext {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.firstpicandtext h1 {
+  padding: 0.5%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.firstpicandtext p {
+  text-align: center;
+  padding: 1%;
+}
+
+.firstpicandtext img {
+  margin-top: 1%;
+  width: 60%;
+  height: 60%;
+}
+
+/* INDEX HTML */
+.whatcanbefound {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.whatcanbefound div {
+  width: 25%;
+  margin: auto;
+}
+
+.whatcanbefound h2 {
+  margin-bottom: 0;
+}
+
+.whatcanbefound p {
+  margin: 2% 0 5% 0;
+  text-align: center;
+}
+
+.readytotravel {
+  border: 1px solid black;
+  width: 60%;
+  min-height: min-content;
+  margin: auto;
+  padding: 0.5% 1% 1% 1%;
+  border-radius: 15px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.readytotravel h2 {
+  border-bottom: 1px solid black;
+  margin: 0 -1.9% 0 -1.9%;
+}
+
+.readytotravel input {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*** DESTINATIONS.HTML ***/
+.allIcons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.allIcons img {
+  padding: 2%;
+  width: 90%;
+}
+
+/*** ACCOMMODATION.HTML ***/
+.booking,
+.airbnb,
+.couchsurfing,
+.conclusion {
+  text-align: center;
+}
+
+.booking p,
+.airbnb p,
+.couchsurfing p,
+.conclusion p {
+  text-align: center;
+  padding: 1%;
+}
+
+.booking img,
+.airbnb img,
+.couchsurfing img {
+  margin-top: 5%;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+/*** PARIS BERLIN.HTML ***/
+.video {
+  padding-top: 1%;
+  text-align: center;
+}
+
+.video video {
+  width: 35%;
+  height: 35%;
+}
+
+.video figcaption {
+  background-color: rgba(0, 0, 0, 0.05);
+  margin-left: 32.5%;
+  margin-right: 32.5%;
+}
+
+.contentList {
+  text-align: left;
+  margin-left: 1%;
+}
+
+.contentList h2 {
+  text-align: left;
+}
+
+.contentList a {
+  color: black;
+}
+
+.outer {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 20px 20px 20px 30px;
+  list-style: upper-roman;
+  margin-top: -1%;
+}
+
+.maincontent article {
+  text-align: center;
+  margin-left: 1%;
+}
+
+.essentialcontent p {
+  text-align: center;
+  padding: 1%;
+}
+
+.conclusion p {
+  padding-bottom: 5%;
+}
+
+.essentialcontent img {
+  width: 40%;
+  height: 40%;
+  margin-top: 1%;
+}
+
+.expenses {
+  text-align: center;
+  align-content: center;
+}
+
+#expenses {
+  text-align: center;
+}
+
+.expenses h2 {
+  text-align: center;
+}
+
+.expenses table {
+  border: 1px solid black;
+  padding: 1% 1% 1% 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expensesTable {
+  margin-right: 57.8%;
+  border-bottom: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expensesTable th {
+  border-right: 1px solid black;
+  padding: 1% 1% 1% 1%;
+}
+
+.expensesTable td {
+  border-left: 1px solid black;
+}
+
+/* CONTACTMEHTML */
+.contactmepage {
+  text-align: center;
+  width: 90%;
+  display: flex;
+}
+
+.leftPicture {
+  width: 50%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.rightForm {
+  width: 50%;
+  float: right;
+}
+
+.rightForm fieldset {
+  border: none;
+}
+
+.rightForm h1 {
+  margin-top: 2.5%;
+}
+
+/* tablet */
+@media screen and (max-width:992px) {
+  nav#mainmenu li {
+    margin: 1%;
+  }
+
+  nav#forvisualimpairment {
+    top: 10%;
+    right: -1%;
+  }
+
+  .whatcanbefound {
+    display: block;
+    margin: auto;
+  }
+
+  .whatcanbefound div {
+    width: 80%;
+    margin: auto;
+  }
+
+  .whatcanbefound p {
+    text-align: center;
+  }
+
+  .contactmepage {
+    display: block;
+    margin: auto;
+  }
+
+  .leftPicture {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .rightForm {
+    width: 70%;
+    margin-right: 15%;
+  }
+
+  #forvisualimpairment img {
+    width: 70%;
+  }
+}
+
+/* phone */
+@media screen and (max-width:576px) {
+  header nav li {
+    display: block;
+    float: left;
+    padding: 2%;
+    padding-left: 160%;
+    white-space: nowrap;
+  }
+
+  header nav ul {
+    width: 20%;
+  }
+
+  header {
+    background-size: 30%;
+    background-position: -2%, left;
+  }
+
+  nav#forvisualimpairment {
+    top: 10%;
+    right: 2%;
+    border-top-right-radius: 10px;
+    padding: 0;
+  }
+
+  main {
+    display: block;
+  }
+
+  .maincontent {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 70%;
+    margin-right: 15%;
+  }
+
+  html {
+    background-repeat: repeat-x;
+    background-size: 15%;
+    background-position: bottom;
+  }
+}
+
+/* Logo for printing */
+#forprinting {
+  display: none;
+}
+
+/*** BYPASS BLOCKS OF CONTENT ***/
+nav.screenreader>a {
+  position: absolute;
+  left: -9999px;
+}
+
+nav.screenreader>a:focus {
+  position: static;
+  background-color: rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,53 @@
+.maincontent,
+html,
+footer,
+header,
+.sidebar,
+main {
+  background-color: grey;
+}
+
+body {
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+a {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px yellow solid;
+  padding-bottom: 2px;
+}
+
+a:visited {
+  background: #fff;
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px yellow solid;
+  padding-bottom: 2px;
+}
+
+a:hover {
+  background: yellow;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px yellow solid;
+  padding-bottom: 2px;
+}
+
+#activate-high-contrast {
+  display: none;
+}
+
+header a:visited {
+  color: white;
+}
+
+.prev,
+.next {
+  border-bottom: none;
+}

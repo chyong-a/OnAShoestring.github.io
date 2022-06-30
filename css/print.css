@@ -1,0 +1,45 @@
+nav {
+    display: none;
+}
+
+#forprinting {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.sidebar {
+    display: none;
+}
+
+.maincontent {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    display: none;
+}
+
+.video {
+    display: none;
+}
+
+.contactmepage {
+    display: block;
+    margin: auto;
+}
+
+.leftPicture {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.leftPicture img {
+    width: 45%;
+}
+
+.rightForm {
+    width: 70%;
+    margin-right: 15%;
+}

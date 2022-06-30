@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/base.css" rel="stylesheet" type="text/css">
+  <link href="css/normal.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="css/print.css" rel="stylesheet" type="text/css" media="print">
+  <link href="lightbox/dist/css/lightbox.css" rel="stylesheet">
+  <title>On a shoestring - Home page</title>
+</head>
+
+<body>
+  <nav class="screenreader">
+    <a href="#maincontent">Skip to Main content</a>
+  </nav>
+  <header>
+    <img id="forprinting" src="logo/onAShoestringLogoTransperent.png" alt="Logo">
+    <nav id="mainmenu">
+      <ul class="topmenu">
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="accommodation.html">Accommodation</a></li>
+        <li><a href="contactme.html">Contact me</a></li>
+      </ul>
+    </nav>
+    <nav id="forvisualimpairment">
+      <a href="" id="activate-high-contrast"><img src="visual_impairment.png" alt="Icon for high contrast mode"
+          width="50"></a>
+      <a href="" id="activate-normal"><img src="normal.png" alt="Icon for normal mode" width="50"></a>
+    </nav>
+  </header>
+  <main>
+    <section class="maincontent" id="maincontent">
+      <div class="firstpicandtext">
+        <img src="home/myGoal.jpeg" width="100" alt="Picture from Barcelona with palm trees and traffic light">
+        <h1>My goal</h1>
+        <p>
+          Dear Reader, it’s an honor and pleasure to know you are on this page. I wouldn’t dare call it a blog
+          (although, maybe this is the most suitable word for it). You can call it however you find appropriate! :)
+          My name is Artur and I’m an international student. Now I study in Hungary. Living in this beautiful city
+          is a great opportunity to travel around the countries of the EU. However, we students cannot afford luxury
+          trips.
+          Here, I will try to share my experience in this field, tell you how to see everything for a limited time and
+          not
+          remain broke. I hope you will find some useful information and apply it in your future adventure. Here, what
+          you
+          can see on the website:
+        </p>
+      </div>
+      <div class="whatcanbefound">
+        <div>
+          <h2>Itineraries:</h2>
+          <p> how to see all the significant (and not only) places for 36 hours or less </p>
+        </div>
+        <div>
+          <h2>Accommodation:</h2>
+          <p> how to find the place to sleep and maybe even make new friends </p>
+        </div>
+        <div>
+          <h2>Tips:</h2>
+          <p>some hints, advice and interesting facts which are likely to help you in the trip </p>
+        </div>
+      </div>
+      <div class="readytotravel">
+        <h2>Ready to travel</h2>
+        <input type="checkbox" name="Passport/ID" id="idPassport/ID" value="yes"><label for="idPassport/ID">Passport/ID:
+          do not forget it. Otherwise, you will not even leave your departure
+          country.
+          (Also, visa/residence permit/another document approving the border crossing).</label><br>
+        <input type="checkbox" name="Phone" id="idPhone" value="yes"><label for="idPhone">Phone: download maps
+          even if you have the best unlimited internet. Imagine if it doesn’t work there (what happened to me
+          once).</label><br>
+        <input type="checkbox" name="PowerBank" id="idPowerBank" value="yes"><label for="idPowerBank">Power Bank,
+          charge cable: do not let your phone die, it is your loyal assistant.</label><br>
+        <input type="checkbox" name="Money" id="idMoney" value="yes"><label for="idMoney">Cash/Credit Card: if
+          you forget something, no worries. You will be able to buy it (not talking about new phone or laptop, but you
+          know what I mean)</label><br>
+      </div>
+    </section>
+    <aside class="sidebar">
+      <div><a href="https://www.couchsurfing.com/" target="blank"><img src="ad.jpg" width="100"
+            alt="Advertisement for CouchSurfing"></a></div>
+      <section id="newesttopics">
+        <h2>Newest topics</h2>
+        <ul>
+          <li><a href="accommodation.html">Accommodation: where, how and how much</a></li>
+          <li><a href="paris.html">Paris: is the city of love and romance overrated?</a></li>
+          <li><a href="berlin.html">Berlin: so many museums. Where should I go?</a></li>
+        </ul>
+      </section>
+      <section id="reasontogo">
+        <div class="slideshow-container">
+          <h2>Reason to go</h2>
+          <div class="mySlides">
+            <p>Go and try unusual food. Why not try <span lang="es">paella</span> in Barcelona or <span
+                lang="hu">kürtőskalács</span> in Budapest?</p>
+          </div>
+          <div class="mySlides">
+            <p>Go and get a new coin for your coin collection.</p>
+          </div>
+          <div class="mySlides">
+            <p>Go and make international friends. You will get a reason to come back and visit your new friend.</p>
+          </div>
+          <div class="mySlides">
+            <p>Go and swim in new sea, lake, or river.</p>
+          </div>
+          <div class="mySlides">
+            <p>Go and try new kinds of beer. Get familiar with the local cherry beer in Brussels.</p>
+          </div>
+          <div class="mySlides">
+            <p>Go and check if a stereotype is true. Are Germans really not funny and never laugh?</p>
+          </div>
+          <div class="mySlides">
+            <p>Go and learn how to say “Hello” in a new language. <span lang="hu">Szia</span>, <span
+                lang="es">hola</span>, <span lang="fr">salut</span> and many others</p>
+          </div>
+          <div class="mySlides">
+            <p>Go and refresh your life. Bored and tired of the routine? The new trip is waiting for you!</p>
+          </div>
+          <div class="mySlides">
+            <p>Go and distract from problems. Rest in the new location and solution will come up soon.</p>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+        </div>
+        <script src="js/main.js"></script>
+      </section>
+    </aside>
+  </main>
+  <footer>
+    <hr>
+    <div id="copyright">
+      <p>Copyright © 2022 On a shoestring around Europe<br>
+        Designed by Artur Chyong</p>
+    </div>
+    <div id="img"><img src="logo/onAShoestringLogoTransperent.png" width="100" alt="Logo"></div>
+    <div class="socialContact">
+      <a href="https://www.instagram.com/chyong_a/" target="_blank">My Instagram</a>
+      <br>
+      <a href="contactme.html" target="_blank">Contact me</a>
+    </div>
+  </footer>
+  <script src="css/css-switch.js"></script>
+  <script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/normal.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/print.css" rel="stylesheet" type="text/css" media="print">
+    <link href="lightbox/dist/css/lightbox.css" rel="stylesheet">
+    <title>On a shoestring - Contact me</title>
+</head>
+
+<body>
+    <nav class="screenreader">
+        <a href="#maincontent">Skip to Main content</a>
+    </nav>
+    <header>
+        <img id="forprinting" src="logo/onAShoestringLogoTransperent.png" alt="Logo">
+        <nav id="mainmenu">
+            <ul class="topmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="accommodation.html">Accommodation</a></li>
+                <li><a href="contactme.html" class="active">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <nav id="forvisualimpairment">
+            <a href="" id="activate-high-contrast"><img src="visual_impairment.png" alt="Icon for high contrast mode"
+                    width="50"></a>
+            <a href="" id="activate-normal"><img src="normal.png" alt="Icon for normal mode" width="50"></a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contactmepage" id="maincontent">
+            <div class="leftPicture"><img src="contact_me/contactme.jpg" width="400"
+                    alt="View from an airplane porthole"></div>
+            <div class="rightForm">
+                <form action="mailto:artur.chyong@gmail.com" method="post" enctype="text/plain">
+                    <fieldset>
+                        <h1>Contact me</h1>
+                        <label for="idname"><strong>Your name</strong></label><br>
+                        <input type="text" name="Name" id="idname" size="30" maxlength="75" required><br>
+                        <label for="idemail"><strong>Your email address</strong></label><br>
+                        <input type="text" name="Email address" id="idemail" size="30" maxlength="75" required><br>
+                        <label for="idsubject"><strong>Email subject</strong></label><br>
+                        <input type="text" name="Subject" id="idsubject" size="30" maxlength="75" required><br>
+                        <label for="idmessage"><strong>Your message</strong></label><br>
+                        <textarea name="Message" id="idmessage" rows="10" cols="30"
+                            placeholder="Place your message"></textarea><br>
+                        <br>
+                        <input type="radio" name="Subscription" id="r1" value="Subscription"> <label for="r1">I
+                            would like
+                            to
+                            subscribe to posts by email</label><br>
+                        <input type="radio" name="Subscription" id="r2" value="No emails"> <label for="r2">Begging
+                            you, no
+                            email, please</label><br>
+                        <br>
+                        <input type="checkbox" name="Get response" id="idgetResponse" value="yes" required><label
+                            for="idgetResponse">I consent to receive a response to my email</label><br>
+                        <br>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div id="copyright">
+            <p>Copyright © 2022 On a shoestring around Europe<br>
+                Designed by Artur Chyong</p>
+        </div>
+        <div id="img"><img src="logo/onAShoestringLogoTransperent.png" width="100" alt="Logo"></div>
+
+        <div class="socialContact">
+            <a href="https://www.instagram.com/chyong_a/" target="_blank">My Instagram</a>
+            <br>
+            <a href="contactme.html" target="_blank">Contact me</a>
+        </div>
+    </footer>
+    <script src="css/css-switch.js"></script>
+    <script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>
